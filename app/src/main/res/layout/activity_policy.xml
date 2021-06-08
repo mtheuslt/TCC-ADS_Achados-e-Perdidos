@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PolicyActivity"
+    android:background="@color/backgroundTermsPolicy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyDescription" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle2" />
+
+        <TextView
+            android:id="@+id/textColect"
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription2"
+            android:textColorLink="@color/textColor"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle3" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription3"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle4" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription4"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle5" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription5"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle6" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription6"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle7" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription7"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+        style="@style/LabelStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:text="@string/privacyTitle8" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription8"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="@string/privacyTitle9" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:text="@string/privacyDescription9"
+            android:textColor="@color/textColor"
+            android:textSize="18dp" />
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">YouFind</string>
+
+    <!-- AndroidManifest -->
+    <string name="config">Settings</string>
+    <string name="about">About</string>
+    <string name="profile">Profile</string>
+
+    <!-- Titles -->
+    <string name="login_title">Login</string>
+    <string name="signup_title">Sign up</string>
+
+    <!-- Welcome -->
+    <string name="splash_welcome_txt">Easiest way to\nfind your lost item.</string>
+    <string name="login_welcome_txt">Hello there !\nWelcome Back</string>
+    <string name="signup_welcome_txt">Hello there !\nWelcome to you</string>
+
+    <!-- Buttons-->
+    <string name="login_btn_label">Login</string>
+    <string name="signup_btn_label">Signup</string>
+
+    <string name="login_label">" LOGIN"</string>
+    <string name="signup_label">" Signup"</string>
+
+    <string name="login_with_google">LOGIN WITH GOOGLE</string>
+
+    <string name="get_started_btn_label">Get Started</string>
+
+    <!--Edit Text hints-->
+    <string name="email_address_hint">Email Address</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="password_hint">Password</string>
+
+    <!--Misc texts-->
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\’t have an account?</string>
+    <string name="have_account">Have an account?</string>
+    <string name="divider_or">OR</string>
+    <string name="recovery_password">Recover Password!</string>
+
+    <!-- NAVBAR -->
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- POPUP (ADICIONAR ITEM PERDIDO OU ACHADO) -->
+
+    <!-- SPINNER LOST AND FOUND -->
+    <string name="found_prompt">Choose whether the item is found or lost!</string>
+
+    <string-array name="found_arrays">
+        <item>Found</item>
+        <item>Lost</item>
+    </string-array>
+
+    <!-- contentDescription -->
+    <string name="backButton">BackButton</string>
+    <string name="imageBG">background</string>
+
+    <!-- autoFillHints -->
+    <string name="emailFillHint">E-mail</string>
+    <string name="nameFillHint">Name</string>
+
+    <!-- ForgotActivity -->
+    <string name="recoveryPassword">Recover your password!</string>
+    <string name="textRecoveryPassword">Clicking on recover password, you will be receiving an email to put your new password.</string>
+    <string name="emailCamp">Email field should be filled!</string>
+    <string name="forgotSucess">Password Reset was sent to your email! </string>
+
+    <!-- RegisterActivity -->
+    <string name="addPhoto">Add a photo!</string>
+    <string name="validRegister">Please check all fields and place a photo for the profile!</string>
+    <string name="passwordStrong">Please enter a stronger password!</string>
+    <string name="emailInvalid">Email typed is invalid!</string>
+    <string name="emailRegistered">This email is already registered!</string>
+    <string name="errorRegister">Error while registering!</string>
+    <string name="userRegisterSucess">Username registered successfully!</string>
+    <string name="imagePick">Select an Image</string>
+
+    <!-- MENU -->
+    <string name="homeMenu">Home</string>
+    <string name="foundMenu">Found</string>
+    <string name="lostMenu">Lost</string>
+    <string name="finishMenu">Complete</string>
+    <string name="profileMenu">Profile</string>
+    <string name="profilemenu2">Profile</string>
+    <string name="logoutOff">Logout</string>
+    <string name="deleteMenu">Delete</string>
+    <string name="editMenu">Edit</string>
+    <string name="changePassword">Change Password</string>
+    <string name="searchMenu">Search</string>
+    <string name="complaintMenu">Report Post</string>
+    <string name="finishHim">Complete</string>
+
+    <!-- PostDetail -->
+    <string name="nameText">TextView</string>
+    <string name="detailsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit,rum eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="details">Details</string>
+    <string name="detailContacts">Contacts: </string>
+    <string name="numberMask">(XX) XXXXX-XXXX</string>
+    <string name="emailMask">android@gmail.com</string>
+    <string name="localePostDetail">Location where object was found or lost: </string>
+    <string name="adressPostDetail">Address</string>
+
+    <!-- AddPost XML -->
+    <string name="titleItemPostAdd">Title*</string>
+    <string name="placePostAdd">Place where it was found or lost*</string>
+    <string name="descPostAdd">Description*</string>
+    <string name="numberPostAdd">Telephone*</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- SettingsActivity -->
+    <string name="enableDarkMode">Enable Dark Mode: </string>
+    <string name="darkMode">Dark Mode</string>
+    <string name="changeLang">Change Language: </string>
+    <string name="english">English </string>
+    <string name="portuguese">Portuguese </string>
+    <string name="settingsTitle">Settings </string>
+
+    <!-- AboutActivity -->
+    <string name="descriptionAbout">This is a BETA app, not yet complete. Made for Programming class for Mobile Device.</string>
+    <string name="versionAbout">Version 0.9</string>
+    <string name="conectAbout">Connect with us!</string>
+    <string name="announceAbout">Advertise Here!</string>
+    <string name="license">License</string>
+    <string name="noticesAbout">Notices for files:</string>
+    <string name="librariesAbout">Android Support Libraries</string>
+    <string name="libraries2About">Libraries</string>
+
+    <!-- PostAdapter -->
+    <string name="toastFinishSucess">Completed successfully!</string>
+    <string name="toastDeleteSucess">Deleted successfully!</string>
+    <string name="deletePostAdapter">Deleting...</string>
+    <string name="deleteOptionPostAdapter">Are you sure you want to delete this post?</string>
+    <string name="optionNo">Post was not deleted</string>
+    <string name="finishPost">Completing...</string>
+    <string name="finishOptionPostAdapter">Are you sure you want to complete this post?</string>
+    <string name="optionNoFinish">Post was not completed!</string>
+    <string name="reportMenuPostAdapter">Report...</string>
+    <string name="reportOptionPostAdapter">Are you sure you want to report this post?</string>
+    <string name="optionNoReport">Post was not reported!</string>
+    <string name="optionYesReport">Post has been reported!</string>
+
+    <!-- HOME -->
+    <string name="permissionHome">Please accept the required permission.</string>
+    <string name="selectHome">Select Source: </string>
+    <string name="contactValidHome">Telephone is not valid!</string>
+    <string name="fildsValidHome">Fill in the fields correctly and add a picture!</string>
+    <string name="itemHome">Item added successfully!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="closeHome">Do you want to close YouFind?</string>
+
+    <!-- LoginActivity -->
+    <string name="fildsLogin">Fill in the email and password fields!</string>
+    <string name="invalidPassEmailLogin">Email or Password you entered is invalid!</string>
+    <string name="userInvalidLogin">Authenticated user is invalid!</string>
+    <string name="connectionErrorLogin">Error with connection!</string>
+    <string name="errorLogin">Error trying to enter!</string>
+
+    <!-- Profile Fragment -->
+    <string name="postByYou">Created by you: </string>
+
+    <!-- Slide 1 - WELCOME -->
+    <string name="titleSlide1">Welcome to YouFind.</string>
+    <string name="descriptionSlide1">Easiest way to find lost items!</string>
+
+    <!-- Slide 2 - PERMISSIONS -->
+    <string name="titleSlide2">Please accept the permissions to continue.</string>
+    <string name="descriptionSlide2">These permissions will help us deliver a better experience!</string>
+
+    <!-- Slide 3 - Privacy -->
+    <string name="titlePrivacy">Privacy Policy</string>
+    <string name="agree_terms_privacy">By continuing, you agree to our <a href="http://link1/terms">Terms of Use</a> and read the <a href="http://link1/privacy">Privacy Policy</a></string>
+    <string name="termsPrivacy">I AGREE WITH TERMS AND CONDITIONS!</string>
+    <string name="termsPlease">Please agree to the terms!</string>
+
+    <!-- Slide 4 - FINISH -->
+    <string name="titleSlide4">You are all set. Enjoy YouFind.</string>
+    <string name="descriptionSlide4">GET STARTED!</string>
+
+    <!-- Privacy -->
+    <string name="privacyBar">Privacy Policy</string>
+    <string name="privacyTitle">Privacy Statement</string>
+    <string name="privacyDescription">This privacy statement explains YouFind\'s practices, including your choices as a user, regarding data collection,
+        use and disclosure of certain information, including your personal information.</string>
+
+    <string name="privacyTitle2">Information Collection and Use</string>
+    <string name="privacyDescription2">For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we
+        request will be retained by us and used as described in this privacy policy. \n\n The app does use third party services that may collect information used to identify you. \n\n
+        Link to privacy policy of third party service providers used by the app \n\n
+        <a href="https://policies.google.com/privacy">Google Play Services</a> \n
+        <a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a> \n
+        <a href="https://fabric.io/privacy">Fabric</a> \n
+        <a href="https://try.crashlytics.com/">Crashlytics</a></string>
+
+    <string name="privacyTitle3">Log Data</string>
+    <string name="privacyDescription3">We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products)
+        on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the
+        app when utilizing our Service, the time and date of your use of the Service, and other statistics.</string>
+
+    <string name="privacyTitle4">Service Providers</string>
+    <string name="privacyDescription4">We may employ third-party companies and individuals due to the following reasons: \n\n
+        To facilitate our Service; \n
+        To provide the Service on our behalf; \n
+        To perform Service-related services; or
+        To assist us in analyzing how our Service is used. \n \n
+        We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf.
+        However, they are obligated not to disclose or use the information for any other purpose.</string>
+
+    <string name="privacyTitle5">Security</string>
+    <string name="privacyDescription5">We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+        But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</string>
+
+    <string name="privacyTitle6">Links to Other Sites</string>
+    <string name="privacyDescription6">This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are
+        not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies,
+        or practices of any third-party sites or services.</string>
+
+    <string name="privacyTitle7">Children’s Privacy</string>
+    <string name="privacyDescription7">These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
+        In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child
+        has provided us with personal information, please contact us so that we will be able to do necessary actions.</string>
+
+    <string name="privacyTitle8">Changes to This Privacy Policy</string>
+    <string name="privacyDescription8">We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of anychanges by posting
+        the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</string>
+
+    <string name="privacyTitle9">Contact Us</string>
+    <string name="privacyDescription9">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at youfind@gmail.com.</string>
+
+    <!-- Terms -->
+    <string name="termsBar">Terms and Conditions</string>
+
+    <string name="termsTitle">YouFind</string>
+    <string name="termsDescription"> These terms of use govern your rights and obligations in connection with the use of YouFind software and its services on the internet or in the cellular media.
+    These terms constitute a binding agreement between YouFind, the holder of all rights to the service and you, so it is recommended that you read these terms carefully and use the
+    YouFind application indicates your agreement to these terms, privacy policy, all of which are a part of these terms. If you do not agree to these terms or any of its parts,
+    then you should refrain from using the service / application / software.</string>
+
+    <string name="termsTitle2">Important Points</string>
+    <string name="termsDescription2">The information provided by the service originates from other users of the service. Such information is inherently volatile and may be imprecise, incomplete or outdated. YouFind does not provide
+    any warranties and credibility or reliability of such information. </string>
+
+    <string name="termsTitle3">Connecting to the Internet</string>
+    <string name="termsDescription3">The Internet Connection is required to use the service and any associated charges incurred for your use of the service, are at your sole and exclusive responsibility
+        and are at your own expense. Real-time streaming and receiving requires a connection or line (4G, 3G, WI-FI) between your mobile device and the internet. The costs of such connection are as prescribed
+        by the agreement between you and your communications service provider (such as your mobile service provider) and in accordance with your applicable payment terms.</string>
+
+    <string name="termsTitle4">User Content</string>
+    <string name="termsDescription4">We do not own any data, information or material ("Content") that you submit in the Mobile Application in the course of using the Service.
+        You shall have sole responsibility for the accuracy, quality, integrity, legality, reliability, appropriateness, and intellectual property ownership or right to use of all submitted Content.
+        We may, but have no obligation to, monitor and review Content in the Mobile Application submitted or created using our Services by you. Unless specifically permitted by you, your use of the
+        Mobile Application does not grant us the license to use, reproduce, adapt, modify, publish or distribute the Content created by you or stored in your user account for commercial, marketing or
+        any similar purpose. But you grant us permission to access, copy, distribute, store, transmit, reformat, display and perform the Content of your user account solely as required for the purpose
+        of providing the Services to you. Without limiting any of those representations or warranties, we have the right, though not the obligation, to, in our own sole discretion, refuse or remove any
+        Content that, in our reasonable opinion, violates any of our policies or is in any way harmful or objectionable.</string>
+
+    <string name="termsTitle5">Backups</string>
+    <string name="termsDescription5">We perform regular backups of the Content and will do our best to ensure completeness and accuracy of these backups. In the event of the hardware failure or data loss
+        we will restore backups automatically to minimize the impact and downtime.</string>
+
+    <string name="termsTitle6">Links to other mobile applications</string>
+    <string name="termsDescription6">Although this Mobile Application may link to other mobile applications, we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any linked mobile application, unless specifically stated herein. Some of the links in the Mobile Application may be "affiliate links". This means if you click on the link and purchase an item, Mobile Application Developer will receive an affiliate commission. We are not responsible for examining or evaluating, and we do not warrant the offerings of, any businesses or individuals or the content of their mobile applications. We do not assume any responsibility or liability for the actions, products, services, and content of any other third-parties. You should carefully review the legal statements and other conditions of use of any mobile application which you access through a link from this Mobile Application. Your linking to any other off-site mobile applications is at your own risk.</string>
+
+    <string name="termsTitle7">Intellectual property rights</string>
+    <string name="termsDescription7">This Agreement does not transfer to you any intellectual property owned by Mobile Application Developer or third-parties, and all rights, titles, and interests in and to such property will remain (as between the parties) solely with Mobile Application Developer. All trademarks, service marks, graphics and logos used in connection with our Mobile Application or Services, are trademarks or registered trademarks of Mobile Application Developer or Mobile Application Developer licensors. Other trademarks, service marks, graphics and logos used in connection with our Mobile Application or Services may be the trademarks of other third-parties. Your use of our Mobile Application and Services grants you no right or license to reproduce or otherwise use any Mobile Application Developer or third-party trademarks.</string>
+
+    <string name="termsTitle8">Limitation of liability</string>
+    <string name="termsDescription8">To the fullest extent permitted by applicable law, in no event will Mobile Application Developer, its affiliates, officers, directors, employees, agents, suppliers or licensors be liable to any person for (a): any indirect, incidental, special, punitive, cover or consequential damages (including, without limitation, damages for lost profits, revenue, sales, goodwill, use or content, impact on business, business interruption, loss of anticipated savings, loss of business opportunity) however caused, under any theory of liability, including, without limitation, contract, tort, warranty, breach of statutory duty, negligence or otherwise, even if Mobile Application Developer has been advised as to the possibility of such damages or could have foreseen such damages. To the maximum extent permitted by applicable law, the aggregate liability of Mobile Application Developer and its affiliates, officers, employees, agents, suppliers and licensors, relating to the services will be limited to an amount greater of one dollar or any amounts actually paid in cash by you to Mobile Application Developer for the prior one month period prior to the first event or occurrence giving rise to such liability. The limitations and exclusions also apply if this remedy does not fully compensate you for any losses or fails of its essential purpose.</string>
+
+    <string name="termsTitle9">Changes and amendments</string>
+    <string name="termsDescription9">We reserve the right to modify this Agreement or its policies relating to the Mobile Application or Services at any time, effective upon posting of an updated version of this Agreement in the Mobile Application. When we do, we will send you an email to notify you. Continued use of the Mobile Application after any such changes shall constitute your consent to such changes. Policy was created with WebsitePolicies.</string>
+
+    <string name="termsTitle10">Acceptance of these terms</string>
+    <string name="termsDescription10">You acknowledge that you have read this Agreement and agree to all its terms and conditions. By using the Mobile Application or its Services you agree to be bound by this Agreement. If you do not agree to abide by the terms of this Agreement, you are not authorized to use or access the Mobile Application and its Services.</string>
+
+
+</resources>

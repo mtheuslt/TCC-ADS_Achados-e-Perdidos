@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_marginTop="10dp"
+            style="@style/ToolbarStyle">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/backButton"
+                android:onClick="btnVoltar"
+                android:src="@drawable/ic_back1" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/containerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_margin="@dimen/container_layout_margin">
+
+            <TextView
+                android:id="@+id/login_title"
+                style="@style/LabelStyle"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="@string/recovery_password"
+                android:textColor="@color/textColor4" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_title"
+                android:layout_marginTop="@dimen/layout_in_between_margins"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/et_email_address"
+                    style="@style/EditTextStyle"
+                    android:layout_below="@id/login_welcome_msg"
+                    android:layout_marginTop="@dimen/layout_in_between_margins"
+                    android:autofillHints="@string/emailFillHint"
+                    android:hint="@string/email_address_hint"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_recovery"
+                style="@style/SolidButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_below="@id/layout_email"
+                android:layout_marginTop="@dimen/layout_in_between_margins"
+                android:text="@string/recovery_password" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_recovery"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/textRecoveryPassword"
+                android:textColor="@color/textColor2" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

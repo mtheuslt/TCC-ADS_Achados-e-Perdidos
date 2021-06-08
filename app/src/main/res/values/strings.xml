@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">YouFind</string>
+
+    <!-- AndroidManifest -->
+    <string name="config">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="profile">Perfil</string>
+
+    <!-- Titles -->
+    <string name="login_title">Entrar</string>
+    <string name="signup_title">Cadastrar-se</string>
+
+    <!-- Welcome -->
+    <string name="splash_welcome_txt">A maneira mais fácil de\nencontrar seu item perdido.</string>
+    <string name="login_welcome_txt">Olá !\nBem-Vindo de Volta!</string>
+    <string name="signup_welcome_txt">Olá !\nSeja Bem-Vindo!</string>
+
+    <!-- Buttons-->
+    <string name="login_btn_label">Entrar</string>
+    <string name="signup_btn_label">Cadastrar-se</string>
+
+    <string name="login_label">" ENTRAR"</string>
+    <string name="signup_label">" Cadastrar-se"</string>
+
+    <string name="login_with_google">ENTRAR COM O GOOGLE</string>
+
+    <string name="get_started_btn_label">Começar!</string>
+
+    <!--Edit Text hints-->
+    <string name="email_address_hint">E-mail</string>
+    <string name="full_name_hint">Nome Completo</string>
+    <string name="password_hint">Senha</string>
+
+    <!--Misc texts-->
+    <string name="forgot_password">Esqueceu sua senha?</string>
+    <string name="no_account">Não tem conta ainda?</string>
+    <string name="have_account">Você tem uma conta?</string>
+    <string name="divider_or">OU</string>
+    <string name="recovery_password">Recuperar senha!</string>
+
+    <!-- NAVBAR -->
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- POPUP (ADICIONAR ITEM PERDIDO OU ACHADO) -->
+
+    <!-- SPINNER LOST AND FOUND -->
+    <string name="found_prompt">Escolha se o item é achado ou perdido!</string>
+
+    <string-array name="found_arrays">
+        <item>Achado</item>
+        <item>Perdido</item>
+    </string-array>
+
+    <!-- contentDescription -->
+    <string name="backButton">BackButton</string>
+    <string name="imageBG">background</string>
+
+    <!-- autoFillHints -->
+    <string name="emailFillHint">E-mail</string>
+    <string name="nameFillHint">Nome</string>
+
+    <!-- ForgotActivity -->
+    <string name="recoveryPassword">Recuperar sua senha!</string>
+    <string name="textRecoveryPassword">Clicando em recuperar senha, você estará recebendo um e-mail para colocar sua nova senha.</string>
+    <string name="emailCamp">O Campo e-mail deve estar preenchido!</string>
+    <string name="forgotSucess">Redefinição de senha foi mandada pro seu e-mail! </string>
+
+    <!-- RegisterActivity -->
+    <string name="addPhoto">Adicione uma Foto!</string>
+    <string name="validRegister">Por favor, verifique todos os campos e coloque uma foto para o perfil!</string>
+    <string name="passwordStrong">Digite uma senha mais forte!</string>
+    <string name="emailInvalid">O E-mail digitado é invalido!</string>
+    <string name="emailRegistered">Esse e-mail já está cadastrado!</string>
+    <string name="errorRegister">Erro ao efetuar o cadastro!</string>
+    <string name="userRegisterSucess">Usuário cadastrado com sucesso!</string>
+    <string name="imagePick">Selecione uma Imagem</string>
+
+    <!-- MENU -->
+    <string name="homeMenu">Início</string>
+    <string name="foundMenu">Achado</string>
+    <string name="lostMenu">Perdido</string>
+    <string name="finishMenu">Finalizado</string>
+    <string name="profileMenu">Perfil</string>
+    <string name="profilemenu2">Seu Perfil</string>
+    <string name="logoutOff">Sair</string>
+    <string name="deleteMenu">Deletar</string>
+    <string name="editMenu">Editar</string>
+    <string name="changePassword">Mudar Senha</string>
+    <string name="searchMenu">Procurar</string>
+    <string name="complaintMenu">Denunciar</string>
+    <string name="finishHim">Finalizar</string>
+
+    <!-- PostDetail -->
+    <string name="nameText">TextView</string>
+    <string name="detailsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit,rum eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="details">Detalhes</string>
+    <string name="detailContacts">Contatos: </string>
+    <string name="numberMask">(XX) XXXXX-XXXX</string>
+    <string name="emailMask">android@gmail.com</string>
+    <string name="localePostDetail">Local onde objeto foi achado ou perdido: </string>
+    <string name="adressPostDetail">Endereço</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- SettingsActivity -->
+    <string name="enableDarkMode">Ativar Modo Escuro: </string>
+    <string name="darkMode">Modo Escuro</string>
+    <string name="changeLang">Trocar Linguagem: </string>
+    <string name="english">Inglês </string>
+    <string name="portuguese">Português </string>
+    <string name="settingsTitle">Configuração</string>
+
+    <!-- AboutActivity -->
+    <string name="descriptionAbout">Este aplicativo foi criado para o TCC de Análise e Desenvolvimento de Sistemas. Ainda está em versão Beta, qualquer problemas, favor enviar feedback.</string>
+    <string name="versionAbout">Versão 0.9</string>
+    <string name="conectAbout">Meios de contato!</string>
+    <string name="announceAbout">Anuncie Aqui!</string>
+    <string name="license">Licença</string>
+    <string name="noticesAbout">Avisos para os arquivos:</string>
+    <string name="librariesAbout">Bibliotecas de Suporte para Android</string>
+    <string name="libraries2About">Bibliotecas</string>
+
+    <!-- PostAdapter -->
+    <string name="toastFinishSucess">Finalizado com sucesso!</string>
+    <string name="toastDeleteSucess">Deletado com sucesso!</string>
+    <string name="deletePostAdapter">Deletando...</string>
+    <string name="deleteOptionPostAdapter">Tem certeza que deseja deletar esse post?</string>
+    <string name="optionNo">O Post não foi excluido!</string>
+    <string name="finishPost">Finalizando...</string>
+    <string name="finishOptionPostAdapter">Tem certeza que deseja finalizar esse post?</string>
+    <string name="optionNoFinish">O Post não foi finalizado!</string>
+    <string name="reportMenuPostAdapter">Denunciar...</string>
+    <string name="reportOptionPostAdapter">Tem certeza que deseja denunciar esse post?</string>
+    <string name="optionNoReport">O Post não foi denunciado!</string>
+    <string name="optionYesReport">O Post foi denunciado!</string>
+
+    <!-- HOME -->
+    <string name="permissionHome">Por favor, aceite a permissão requerida.</string>
+    <string name="selectHome">Selecione: </string>
+    <string name="contactValidHome">Número de contato não é valido!</string>
+    <string name="fildsValidHome">Preenche os campos corretamente e adicione uma imagem!</string>
+    <string name="itemHome">Item adicionado com Sucesso!</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="closeHome">Deseja fechar o YouFind?</string>
+
+    <!-- AddPost XML -->
+    <string name="titleItemPostAdd">Nome do Item*</string>
+    <string name="placePostAdd">Lugar onde foi achado ou perdido*</string>
+    <string name="descPostAdd">Descrição do Item*</string>
+    <string name="numberPostAdd">Número para Contato*</string>
+
+    <!-- LoginActivity -->
+    <string name="fildsLogin">Preencha os campos de e-mail e senha!</string>
+    <string name="invalidPassEmailLogin">O E-mail ou a Senha digitados é invalido!</string>
+    <string name="userInvalidLogin">Usuario autenticado inválido!</string>
+    <string name="connectionErrorLogin">Erro com a conexão!</string>
+    <string name="errorLogin">Erro ao entrar!</string>
+
+    <!-- Profile Fragment -->
+    <string name="postByYou">Criados por você: </string>
+
+    <!-- Slide 1 - WELCOME -->
+    <string name="titleSlide1">Bem Vindo ao Aplicativo YouFind.</string>
+    <string name="descriptionSlide1">Aplicativo que te ajuda a encontrar objetos perdidos!</string>
+
+    <!-- Slide 2 - PERMISSIONS -->
+    <string name="titleSlide2">Por favor, aceite as permissões para continuar!</string>
+    <string name="descriptionSlide2">Essas permissões irão nos ajudar a entregar uma melhor experiencia!</string>
+
+    <!-- Slide 3 - Privacy -->
+    <string name="titlePrivacy">Politica de Privacidade</string>
+
+    <string name="agree_terms_privacy">Para continuar, você tem que concorda com os nossos
+        Termos e Condições e ler a nossa Politica de Privacidade. </string>
+
+    <string name="termsPrivacy">EU CONCORDO COM OS TERMOS!</string>
+    <string name="termsPlease">Por favor, concorde com os termos!</string>
+
+    <!-- Slide 4 - FINISH -->
+    <string name="titleSlide4">Tudo feito, aproveite o aplicativo YouFind!</string>
+    <string name="descriptionSlide4">VAMOS COMEÇAR!</string>
+
+    <!-- Privacy -->
+    <string name="privacyBar">Politica de Privacidade</string>
+    <string name="privacyTitle">Declaração de Privacidade</string>
+    <string name="privacyDescription">Esta declaração de privacidade explica as práticas do YouFind, incluindo as suas escolhas como usuário, referente à coleta de dados,
+        utilização e divulgação de certas informações, incluindo suas informações pessoais.</string>
+
+    <string name="privacyTitle2">Coleta e Uso de Informações</string>
+    <string name="privacyDescription2">Para uma melhor experiência, ao usar nosso Serviço, podemos exigir que você nos forneca algumas informações pessoalmente identificáveis. As informações que solicitamos
+    serão retidas por nós e usadas conforme descrito nesta política de privacidade. \n\n O aplicativo usa serviços de terceiros que podem coletar informações usadas para identificá-lo. \n\n
+    Link para política de privacidade de provedores de serviços de terceiros usados pelos aplicativos: \n\n
+        <a href="https://policies.google.com/privacy">Google Play Services</a> \n
+        <a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a> \n
+        <a href="https://fabric.io/privacy">Fabric</a> \n
+        <a href="https://try.crashlytics.com/">Crashlytics</a></string>
+
+    <string name="privacyTitle3">Dados de Log</string>
+    <string name="privacyDescription3">Queremos informá-lo que sempre que você usar o nosso serviço, em caso de um erro no aplicativo, coletamos dados e informações (através de produtos de terceiros)
+        em seu telefone chamado Log Data. Esses dados de registro podem incluir informações como o endereço IP do dispositivo, o nome do dispositivo, a versão do sistema operacional, a configuração do
+        aplicativo ao utilizar nosso serviço, a hora e a data do seu uso do serviço e outras estatísticas.</string>
+
+    <string name="privacyTitle4">Provedores de Serviço</string>
+    <string name="privacyDescription4">Podemos empregar empresas e indivíduos de terceiros devido às seguintes razões: \n\n
+    Para facilitar nosso serviço; \n
+    Para fornecer o serviço em nosso nome; \n
+    Para executar serviços relacionados a serviços; ou
+    Para nos ajudar a analisar como nosso Serviço é usado. \n \n
+    Queremos informar aos usuários deste Serviço que esses terceiros tenham acesso às suas Informações Pessoais. O motivo é executar as tarefas atribuídas a eles em nosso nome.
+        No entanto, eles são obrigados a não divulgar ou usar as informações para qualquer outra finalidade.</string>
+
+    <string name="privacyTitle5">Segurança</string>
+    <string name="privacyDescription5">Valorizamos sua confiança ao nos fornecer suas Informações Pessoais, por isso estamos nos esforçando para usar meios comercialmente aceitáveis ​​de protegê-los.
+        Mas lembre-se de que nenhum método de transmissão pela internet ou método de armazenamento eletrônico é 100% seguro e confiável, e não podemos garantir sua segurança absoluta.</string>
+
+    <string name="privacyTitle6">Links para Outros Sites</string>
+    <string name="privacyDescription6">Este Serviço pode conter links para outros sites. Se você clicar em um link de terceiros, você será direcionado para esse site. Observe que esses sites externos não são operados por nós.
+        Portanto, recomendamos que você revise a Política de Privacidade desses sites. Não temos controle e não assumimos qualquer responsabilidade pelo conteúdo, políticas de privacidade ou
+        práticas de quaisquer sites ou serviços de terceiros.</string>
+
+    <string name="privacyTitle7">Privacidade Infantil</string>
+    <string name="privacyDescription7">Esses Serviços não abordam ninguém com idade inferior a 13 anos. Não coletamos intencionalmente informações de identificação pessoal de crianças com menos de 13 anos.
+        No caso de descobrirmos que uma criança com menos de 13 anos nos forneceu informações pessoais, imediatamente a excluímos de nossos servidores.
+        Se você é pai / mãe ou tutor e sabe que seu filho nos forneceu informações pessoais, entre em contato conosco para que possamos tomar as providências necessárias.</string>
+
+    <string name="privacyTitle8">Alterações</string>
+    <string name="privacyDescription8">Podemos atualizar nossa Política de Privacidade de tempos em tempos. Assim, aconselhamos que você revise esta página periodicamente para quaisquer alterações.
+        Vamos notificá-lo de quaisquer alterações publicando a nova Política de Privacidade nesta página. Essas alterações são efetivadas imediatamente após serem publicadas nesta página.</string>
+
+    <string name="privacyTitle9">Contate-nos</string>
+    <string name="privacyDescription9">Se você tiver dúvidas ou sugestões sobre nossa Política de Privacidade, não hesite em nos contatar em youfind@gmail.com.</string>
+
+    <!-- Terms -->
+    <string name="termsBar">Termos e Condições</string>
+
+    <string name="termsTitle">YouFind</string>
+    <string name="termsDescription">Estes termos de uso regem os seus direitos e obrigações em relação ao uso de software do YouFind e de seus serviços na internet ou nos meios de comunicação celular.
+    Estes termos constituem um acordo vinculativo entre YouFind, o titular de todos os direitos sobre serviço e você, portanto é recomendável que você leia atentamente estas condições e ao utilizar o
+    aplicativo YouFind você indica suas concordâncias com estes termos, politica de privacidade todos os quais são integrantes destas condições. Se você não concorda com estes termos ou qualquer de suas partes,
+    então você deve abster-se de utilizar o serviço / aplicativo / software.</string>
+
+    <string name="termsTitle2">Pontos Importantes</string>
+    <string name="termsDescription2">As informações fornecidas pelo serviço tem origem de outros usuários do serviço. Tal informação é intrinsecamente volátil e pode ser imprecisa, incompleta ou desatualizada. YouFind não fornece
+    quaisquer garantias e credibilidade ou confiabilidade de tais informações. </string>
+
+    <string name="termsTitle3">Conexão com a Internet</string>
+    <string name="termsDescription3">A Conexão à internet é necessária para usar o serviço e quaisquer encargos associados incorridas pelo seu uso do serviço, são de sua responsabilidade e exclusiva e feitas as suas custas.
+    Transmitir e receber atualização em tempo real requer uma conexão ou linha (4G, 3G, WI-FI) entre o seu aparelho celular e da internet. As despesas de tal conexão são como prescrito pelo acordo entre
+    você e seu provedor de serviços de comunicação (como a sua operadora de celular) e de acordo com seus termos aplicáveis de pagamento.</string>
+
+    <string name="termsTitle4">Conteúdo do Usuário</string>
+    <string name="termsDescription4">Nós não possuímos nenhum dado, informação ou material ("Conteúdo") que você enviar no Aplicativo Móvel durante o uso do Serviço. Você terá a responsabilidade exclusiva
+        pela exatidão, qualidade, integridade, legalidade, confiabilidade, adequação e propriedade intelectual ou direito de uso de todo o conteúdo enviado. Podemos, mas não temos obrigação de monitorar e
+        analisar o Conteúdo no Aplicativo para Dispositivos Móveis enviado ou criado usando nossos Serviços por você. A menos que especificamente permitido por você, seu uso do Aplicativo Móvel não nos concede
+        a licença para usar, reproduzir, adaptar, modificar, publicar ou distribuir o Conteúdo criado por você ou armazenado em sua conta de usuário para fins comerciais, de marketing ou similares. Mas você
+        nos concede permissão para acessar, copiar, distribuir, armazenar, transmitir, reformatar, exibir e executar o Conteúdo de sua conta de usuário somente conforme necessário para o propósito de fornecer
+        os Serviços para você. Sem limitar nenhuma dessas representações ou garantias, temos o direito, embora não a obrigação, de, a nosso exclusivo critério, recusar ou remover qualquer Conteúdo que,
+        em nossa opinião, viole qualquer uma de nossas políticas ou seja de alguma forma prejudicial. ou censurável.</string>
+
+    <string name="termsTitle5">Backups</string>
+    <string name="termsDescription5">Realizamos backups regulares do conteúdo e faremos o melhor possível para garantir a integridade e precisão desses backups. No caso de falha de hardware ou perda de dados,
+        restauraremos os backups automaticamente para minimizar o impacto e o tempo de inatividade.</string>
+
+    <string name="termsTitle6">Aplicativos Móveis de Terceiros</string>
+    <string name="termsDescription6">Embora este Aplicativo para Dispositivos Móveis possa vincular-se a outros aplicativos para celular, não estamos, direta ou indiretamente, implicando qualquer aprovação,
+        associação, patrocínio, endosso ou afiliação com qualquer aplicativo para dispositivos móveis vinculado, a menos que especificamente indicado aqui. Alguns dos links no aplicativo móvel podem ser
+        "links afiliados". Isso significa que, se você clicar no link e comprar um item, o Mobile Application Developer receberá uma comissão de afiliado. Nós não somos responsáveis ​​por examinar ou avaliar,
+        e não garantimos as ofertas de quaisquer negócios ou indivíduos ou o conteúdo de suas aplicações móveis. Não assumimos qualquer responsabilidade pelas ações, produtos, serviços e conteúdo de terceiros.
+        Você deve analisar cuidadosamente as declarações jurídicas e outras condições de uso de qualquer aplicativo móvel acessado por meio de um link deste Aplicativo para dispositivos móveis.
+        Sua vinculação a qualquer outro aplicativo móvel fora do site é de sua responsabilidade.</string>
+
+    <string name="termsTitle7">Direito de propriedade intelectual</string>
+    <string name="termsDescription7">Este Contrato não transfere para você nenhuma propriedade intelectual de propriedade da Mobile Application Developer ou de terceiros, e todos os
+        direitos, títulos e interesses de e para essa propriedade permanecerão (como entre as partes) exclusivamente com o Mobile Application Developer. Todas as marcas registradas, marcas de serviço, gráficos
+        e logotipos usados ​​em conexão com nossos Aplicativos ou Serviços Móveis são marcas comerciais ou marcas registradas de licenciadores do Mobile Application Developer ou do Mobile Application Developer.
+        Outras marcas comerciais, marcas de serviço, gráficos e logotipos usados ​​em conexão com nossos Aplicativos ou Serviços Móveis podem ser marcas registradas de terceiros.O uso que você faz dos nossos
+        aplicativos e serviços móveis não lhe concede nenhum direito ou licença para reproduzir ou usar qualquer desenvolvedor de aplicativos móveis ou marcas registradas de terceiros.</string>
+
+    <string name="termsTitle8">Limitação de responsabilidade</string>
+    <string name="termsDescription8">Em toda a extensão permitida pela lei aplicável, em nenhum caso a Mobile Application Developer, suas afiliadas, executivos, diretores, funcionários, agentes, fornecedores
+        ou licenciadores serão responsáveis ​​perante qualquer pessoa por (a): qualquer ação indireta, incidental, especial, punitiva, cobrir ou danos consequenciais (incluindo, sem limitação, danos por perda de
+        lucros, receita, vendas, boa vontade, uso ou conteúdo, impacto nos negócios, interrupção de negócios, perda de economias antecipadas, perda de oportunidade de negócios), sob qualquer teoria de
+        responsabilidade , incluindo, sem limitação, contrato, responsabilidade civil, garantia, violação de dever estatutário, negligência ou de outra forma, mesmo que a Mobile Application Developer tenha
+        sido avisada sobre a possibilidade de tais danos ou possa ter previsto tais danos. Na medida máxima permitida pela lei aplicável, a responsabilidade agregada da Mobile Application Developer e de suas
+        afiliadas, executivos, funcionários, agentes, fornecedores e licenciadores, relacionada aos serviços será limitada a um valor maior de um dólar ou qualquer valor efetivamente pago em dinheiro por você
+        ao Mobile Application Developer pelo um mês antes do primeiro evento ou ocorrência que deu origem a tal responsabilidade. As limitações e exclusões também se aplicam se este remédio não compensá-lo
+        totalmente por quaisquer perdas ou falhas do seu propósito essencial. relativo aos serviços será limitado a uma quantidade maior de um dólar ou quaisquer valores efectivamente pagos em dinheiro por
+        você ao Mobile Application Developer para o período de um mês antes antes do primeiro evento ou ocorrência dando origem a essa responsabilidade. As limitações e exclusões também se aplicam se este
+        remédio não compensá-lo totalmente por quaisquer perdas ou falhas do seu propósito essencial. relativo aos serviços será limitado a uma quantidade maior de um dólar ou quaisquer valores efectivamente
+        pagos em dinheiro por você ao Mobile Application Developer para o período de um mês antes antes do primeiro evento ou ocorrência dando origem a essa responsabilidade. As limitações e exclusões também
+        se aplicam se este remédio não compensá-lo totalmente por quaisquer perdas ou falhas do seu propósito essencial.</string>
+
+    <string name="termsTitle9">Alterações</string>
+    <string name="termsDescription9">Reservamo-nos o direito de modificar este Contrato ou suas políticas relacionadas ao Aplicativo ou Serviços Móveis a qualquer momento, em vigor após a publicação de
+        uma versão atualizada deste Contrato no Aplicativo para Dispositivos Móveis. Quando o fizermos, enviaremos um e-mail para notificá-lo. O uso contínuo do Aplicativo para dispositivos móveis após tais
+        alterações constituirá seu consentimento para tais alterações. A política foi criada com o WebsitePolicies .</string>
+
+    <string name="termsTitle10">Aceitação destes termos</string>
+    <string name="termsDescription10">Você reconhece que leu este Acordo e concorda com todos os seus termos e condições. Ao usar o aplicativo móvel ou seus serviços, você concorda em ficar vinculado
+        a este contrato. Se você não concordar em cumprir os termos deste Contrato, você não está autorizado a usar ou acessar o Aplicativo para Dispositivos Móveis e seus Serviços.</string>
+
+</resources>

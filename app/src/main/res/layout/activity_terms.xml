@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TermsActivity"
+    android:background="@color/backgroundTermsPolicy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle2" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription2" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle3" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription3" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle4" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription4" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle5" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription5" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle6" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription6" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle7" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription7" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle8" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription8" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle9" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription9" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/textColor"
+            android:text="@string/termsTitle10" />
+
+        <TextView
+            style="@style/LabelStyle"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textColor"
+            android:text="@string/termsDescription10" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

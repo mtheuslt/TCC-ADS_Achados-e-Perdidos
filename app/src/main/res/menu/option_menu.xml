@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_item_complete" android:title="@string/finishHim"/>
+    <item android:id="@+id/menu_item_editar" android:title="@string/editMenu"/>
+    <item android:id="@+id/menu_item_delete" android:title="@string/deleteMenu"/>
+
+</menu>

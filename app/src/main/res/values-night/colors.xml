@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#404040</color>
+    <color name="colorAccent">#333333</color>
+    <color name="colorAccent2">#fff</color>
+
+    <color name="buttonRowPost">#f5f5f5</color>
+    <color name="textColor">#f5f5f5</color>
+    <color name="textColor2">#f5f5f5</color>
+    <color name="textColor3">#DE000000</color>
+    <color name="textColor4">#fff</color>
+    <color name="textColor5">#fff</color>
+    <color name="popup_add_styleColor">#333333</color>
+    <color name="buttom_nav_color">#fff</color>
+    <color name="buttom_menu_text_color">#fff</color>
+
+    <color name="selector_bottombarColor1">#fff</color>
+    <color name="selector_bottombarColor2">#fff</color>
+    <color name="selector_bottombarColor3">#fff</color>
+    <color name="selector_bottombarColor4">#fff</color>
+
+    <color name="bottoms">#DE000000</color>
+    <color name="progressBarColor">#fff</color>
+    <color name="settingsBackground">#404040</color>
+    <color name="settingsCard">#333333</color>
+
+    <color name="alertDialogText">#ffff</color>
+    <color name="alertDialogPrimary">#fff</color>
+    <color name="alertDialogAccent">#fff</color>
+    <color name="alertDialogBackground">#333333</color>
+
+    <color name="backgroundTermsPolicy">#333333</color>
+    <color name="backgroundLicense">#333333</color>
+    <color name="backgroundDetails">#333333</color>
+
+    <color name="iconPhone">#fff</color>
+    <color name="iconEmail">#fff</color>
+    <color name="iconPlace">#fff</color>
+
+
+</resources>
